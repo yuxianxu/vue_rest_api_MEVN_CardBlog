@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AddPost from '../views/AddPost.vue'
 import EditPost from '../views/EditPost.vue'
-import DeletePost from '../views/DeletePost.vue'
 import Post from '../views/Post.vue'
 
 Vue.use(VueRouter)
@@ -28,11 +27,6 @@ const routes = [
     path: '/edit-post/:id',
     name: 'edit-post',
     component: EditPost 
-  },
-  {
-    path: '/delete-post/:id',
-    name: 'delete-post',
-    component: DeletePost
   },
   {
     path: '/about',

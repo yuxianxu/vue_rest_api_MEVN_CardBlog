@@ -1,10 +1,26 @@
-# vue_mongodb_rest_api_app
+# CardBlog
+
+## Live Demo
+
+- [CardBlog](https://cardblog.herokuapp.com)
 
 ## About
 
 - Full-stack MEVN project using MongoDB, Express Js and Node Js in Back-End to create RestFul API
 
 - Then consumed this API in the Front-End using VueJs and Vuetify
+
+## ScreenShots
+
+![Home](https://github.com/yuxianxu/vue_mongodb_rest_api_app/blob/main/client/src/assets/cardblog1.png)
+
+![Single Blog](https://github.com/yuxianxu/vue_mongodb_rest_api_app/blob/main/client/src/assets/cardblog2.png)
+
+![About Page](https://github.com/yuxianxu/vue_mongodb_rest_api_app/blob/main/client/src/assets/cardblog3.png)
+
+![Add New Blog](https://github.com/yuxianxu/vue_mongodb_rest_api_app/blob/main/client/src/assets/cardblog4.png)
+
+![Update Blog](https://github.com/yuxianxu/vue_mongodb_rest_api_app/blob/main/client/src/assets/cardblog5.png)
 
 ### Credit
 

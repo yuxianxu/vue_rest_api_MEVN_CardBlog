@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 5001;
 
 //middleware
 
@@ -27,6 +27,14 @@ mongoose
 
 //routes prefix
 app.use('/api/post', require('./routes/routes'));
+
+//production environment
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(__dirname + '/dist/'));
+  app.get('*', (req, res) => {
+    res.sendFile(__dirname + '/dist/index.html');
+  });
+}
 
 //start server
 
